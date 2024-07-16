@@ -10,6 +10,7 @@ def index(request):
     return render(request, "flights/index.html", {
         "flights": Flight.objects.all()
     })
+#random addition
 
 def flight(request, flight_id):
     try:
